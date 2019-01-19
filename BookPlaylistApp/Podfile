@@ -6,6 +6,7 @@ target 'BookPlaylistApp' do
   use_frameworks!
 
   # Pods for BookPlaylistApp
+  pod 'Firebase/Core'
 
   target 'BookPlaylistAppTests' do
     inherit! :search_paths
