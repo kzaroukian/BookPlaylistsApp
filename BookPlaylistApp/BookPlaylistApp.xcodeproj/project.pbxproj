@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75D89E0921F390F700CEC126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D89E0821F390F700CEC126 /* AppDelegate.swift */; };
+		75D89E0B21F390F700CEC126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D89E0A21F390F700CEC126 /* ViewController.swift */; };
+		75D89E0E21F390F700CEC126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D89E0C21F390F700CEC126 /* Main.storyboard */; };
+		75D89E1021F390F800CEC126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D89E0F21F390F800CEC126 /* Assets.xcassets */; };
+		75D89E1321F390F800CEC126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D89E1121F390F800CEC126 /* LaunchScreen.storyboard */; };
+		75D89E1E21F390F800CEC126 /* BookPlaylistAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D89E1D21F390F800CEC126 /* BookPlaylistAppTests.swift */; };
+		75D89E2921F390F800CEC126 /* BookPlaylistAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D89E2821F390F800CEC126 /* BookPlaylistAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75D89E1A21F390F800CEC126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D89DFD21F390F700CEC126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D89E0421F390F700CEC126;
+			remoteInfo = BookPlaylistApp;
+		};
+		75D89E2521F390F800CEC126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75D89DFD21F390F700CEC126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75D89E0421F390F700CEC126;
+			remoteInfo = BookPlaylistApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75D89E0521F390F700CEC126 /* BookPlaylistApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookPlaylistApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D89E0821F390F700CEC126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75D89E0A21F390F700CEC126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75D89E0D21F390F700CEC126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75D89E0F21F390F800CEC126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75D89E1221F390F800CEC126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75D89E1421F390F800CEC126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D89E1921F390F800CEC126 /* BookPlaylistAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookPlaylistAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D89E1D21F390F800CEC126 /* BookPlaylistAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPlaylistAppTests.swift; sourceTree = "<group>"; };
+		75D89E1F21F390F800CEC126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D89E2421F390F800CEC126 /* BookPlaylistAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookPlaylistAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D89E2821F390F800CEC126 /* BookPlaylistAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPlaylistAppUITests.swift; sourceTree = "<group>"; };
+		75D89E2A21F390F800CEC126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D89E0221F390F700CEC126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D89E1621F390F800CEC126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D89E2121F390F800CEC126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75D89DFC21F390F700CEC126 = {
+			isa = PBXGroup;
+			children = (
+				75D89E0721F390F700CEC126 /* BookPlaylistApp */,
+				75D89E1C21F390F800CEC126 /* BookPlaylistAppTests */,
+				75D89E2721F390F800CEC126 /* BookPlaylistAppUITests */,
+				75D89E0621F390F700CEC126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75D89E0621F390F700CEC126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75D89E0521F390F700CEC126 /* BookPlaylistApp.app */,
+				75D89E1921F390F800CEC126 /* BookPlaylistAppTests.xctest */,
+				75D89E2421F390F800CEC126 /* BookPlaylistAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D89E0721F390F700CEC126 /* BookPlaylistApp */ = {
+			isa = PBXGroup;
+			children = (
+				75D89E0821F390F700CEC126 /* AppDelegate.swift */,
+				75D89E0A21F390F700CEC126 /* ViewController.swift */,
+				75D89E0C21F390F700CEC126 /* Main.storyboard */,
+				75D89E0F21F390F800CEC126 /* Assets.xcassets */,
+				75D89E1121F390F800CEC126 /* LaunchScreen.storyboard */,
+				75D89E1421F390F800CEC126 /* Info.plist */,
+			);
+			path = BookPlaylistApp;
+			sourceTree = "<group>";
+		};
+		75D89E1C21F390F800CEC126 /* BookPlaylistAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				75D89E1D21F390F800CEC126 /* BookPlaylistAppTests.swift */,
+				75D89E1F21F390F800CEC126 /* Info.plist */,
+			);
+			path = BookPlaylistAppTests;
+			sourceTree = "<group>";
+		};
+		75D89E2721F390F800CEC126 /* BookPlaylistAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75D89E2821F390F800CEC126 /* BookPlaylistAppUITests.swift */,
+				75D89E2A21F390F800CEC126 /* Info.plist */,
+			);
+			path = BookPlaylistAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75D89E0421F390F700CEC126 /* BookPlaylistApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D89E2D21F390F800CEC126 /* Build configuration list for PBXNativeTarget "BookPlaylistApp" */;
+			buildPhases = (
+				75D89E0121F390F700CEC126 /* Sources */,
+				75D89E0221F390F700CEC126 /* Frameworks */,
+				75D89E0321F390F700CEC126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookPlaylistApp;
+			productName = BookPlaylistApp;
+			productReference = 75D89E0521F390F700CEC126 /* BookPlaylistApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75D89E1821F390F800CEC126 /* BookPlaylistAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D89E3021F390F800CEC126 /* Build configuration list for PBXNativeTarget "BookPlaylistAppTests" */;
+			buildPhases = (
+				75D89E1521F390F800CEC126 /* Sources */,
+				75D89E1621F390F800CEC126 /* Frameworks */,
+				75D89E1721F390F800CEC126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D89E1B21F390F800CEC126 /* PBXTargetDependency */,
+			);
+			name = BookPlaylistAppTests;
+			productName = BookPlaylistAppTests;
+			productReference = 75D89E1921F390F800CEC126 /* BookPlaylistAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75D89E2321F390F800CEC126 /* BookPlaylistAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75D89E3321F390F800CEC126 /* Build configuration list for PBXNativeTarget "BookPlaylistAppUITests" */;
+			buildPhases = (
+				75D89E2021F390F800CEC126 /* Sources */,
+				75D89E2121F390F800CEC126 /* Frameworks */,
+				75D89E2221F390F800CEC126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75D89E2621F390F800CEC126 /* PBXTargetDependency */,
+			);
+			name = BookPlaylistAppUITests;
+			productName = BookPlaylistAppUITests;
+			productReference = 75D89E2421F390F800CEC126 /* BookPlaylistAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75D89DFD21F390F700CEC126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					75D89E0421F390F700CEC126 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					75D89E1821F390F800CEC126 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 75D89E0421F390F700CEC126;
+					};
+					75D89E2321F390F800CEC126 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 75D89E0421F390F700CEC126;
+					};
+				};
+			};
+			buildConfigurationList = 75D89E0021F390F700CEC126 /* Build configuration list for PBXProject "BookPlaylistApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75D89DFC21F390F700CEC126;
+			productRefGroup = 75D89E0621F390F700CEC126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75D89E0421F390F700CEC126 /* BookPlaylistApp */,
+				75D89E1821F390F800CEC126 /* BookPlaylistAppTests */,
+				75D89E2321F390F800CEC126 /* BookPlaylistAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75D89E0321F390F700CEC126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D89E1321F390F800CEC126 /* LaunchScreen.storyboard in Resources */,
+				75D89E1021F390F800CEC126 /* Assets.xcassets in Resources */,
+				75D89E0E21F390F700CEC126 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D89E1721F390F800CEC126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D89E2221F390F800CEC126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75D89E0121F390F700CEC126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D89E0B21F390F700CEC126 /* ViewController.swift in Sources */,
+				75D89E0921F390F700CEC126 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D89E1521F390F800CEC126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D89E1E21F390F800CEC126 /* BookPlaylistAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75D89E2021F390F800CEC126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75D89E2921F390F800CEC126 /* BookPlaylistAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75D89E1B21F390F800CEC126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D89E0421F390F700CEC126 /* BookPlaylistApp */;
+			targetProxy = 75D89E1A21F390F800CEC126 /* PBXContainerItemProxy */;
+		};
+		75D89E2621F390F800CEC126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75D89E0421F390F700CEC126 /* BookPlaylistApp */;
+			targetProxy = 75D89E2521F390F800CEC126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75D89E0C21F390F700CEC126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D89E0D21F390F700CEC126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75D89E1121F390F800CEC126 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75D89E1221F390F800CEC126 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75D89E2B21F390F800CEC126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75D89E2C21F390F800CEC126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75D89E2E21F390F800CEC126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 266RPSA34N;
+				INFOPLIST_FILE = BookPlaylistApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BookPlaylistApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75D89E2F21F390F800CEC126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 266RPSA34N;
+				INFOPLIST_FILE = BookPlaylistApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BookPlaylistApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75D89E3121F390F800CEC126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 266RPSA34N;
+				INFOPLIST_FILE = BookPlaylistAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BookPlaylistAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookPlaylistApp.app/BookPlaylistApp";
+			};
+			name = Debug;
+		};
+		75D89E3221F390F800CEC126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 266RPSA34N;
+				INFOPLIST_FILE = BookPlaylistAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BookPlaylistAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BookPlaylistApp.app/BookPlaylistApp";
+			};
+			name = Release;
+		};
+		75D89E3421F390F800CEC126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 266RPSA34N;
+				INFOPLIST_FILE = BookPlaylistAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BookPlaylistAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookPlaylistApp;
+			};
+			name = Debug;
+		};
+		75D89E3521F390F800CEC126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 266RPSA34N;
+				INFOPLIST_FILE = BookPlaylistAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BookPlaylistAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BookPlaylistApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75D89E0021F390F700CEC126 /* Build configuration list for PBXProject "BookPlaylistApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D89E2B21F390F800CEC126 /* Debug */,
+				75D89E2C21F390F800CEC126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D89E2D21F390F800CEC126 /* Build configuration list for PBXNativeTarget "BookPlaylistApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D89E2E21F390F800CEC126 /* Debug */,
+				75D89E2F21F390F800CEC126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D89E3021F390F800CEC126 /* Build configuration list for PBXNativeTarget "BookPlaylistAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D89E3121F390F800CEC126 /* Debug */,
+				75D89E3221F390F800CEC126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75D89E3321F390F800CEC126 /* Build configuration list for PBXNativeTarget "BookPlaylistAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D89E3421F390F800CEC126 /* Debug */,
+				75D89E3521F390F800CEC126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75D89DFD21F390F700CEC126 /* Project object */;
+}
