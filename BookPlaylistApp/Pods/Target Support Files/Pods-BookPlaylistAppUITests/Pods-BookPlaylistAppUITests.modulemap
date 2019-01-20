@@ -1,0 +1,6 @@
+framework module Pods_BookPlaylistAppUITests {
+  umbrella header "Pods-BookPlaylistAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
